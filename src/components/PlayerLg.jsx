@@ -10,8 +10,8 @@ const PlayerLg = () => {
         zIndex: 10,
       }}
     >
-      <Row className=" d-flex align-items-center">
-        <Col xs="auto" className="d-flex gap-2">
+      <Row className="p-0">
+        <Col xs="auto" className="d-flex gap-2 p-0">
           <i className="bi bi-shuffle" style={{ color: "white", fontSize: "1.5rem" }}></i>
           <i className="bi bi-skip-backward-fill" style={{ color: "white", fontSize: "1.5rem" }}></i>
           <i className="bi bi-play-fill" style={{ color: "white", fontSize: "1.5rem" }}></i>
@@ -19,22 +19,21 @@ const PlayerLg = () => {
           <i className="bi bi-arrow-counterclockwise" style={{ color: "white", fontSize: "1.5rem" }}></i>
         </Col>
 
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex p-0">
           <div
             style={{
               backgroundColor: "#4D4D4D",
-              padding: "8px 250px",
+              padding: "8px 200px",
               borderRadius: "12px",
               display: "flex",
               alignItems: "center",
-              justifyContent: "center",
             }}
           >
             <img src="../logos/apple.svg" alt="Apple" style={{ height: "32px" }} />
           </div>
         </Col>
 
-        <Col xs="auto" className="d-flex align-items-center gap-2">
+        <Col xs="auto" className="d-flex align-items-center gap-2 p-0">
           <i className="bi bi-volume-down-fill" style={{ color: "white", fontSize: "1.5rem" }}></i>
           <Button
             style={{
