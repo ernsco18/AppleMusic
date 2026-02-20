@@ -5,11 +5,10 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export default function MyNavbar() {
   return (
     <Navbar
-      expand="lg"
       className="d-none d-lg-flex flex-column p-3"
       style={{
         backgroundColor: "#2E2E2E",
-        height: "100vh",
+        height: "100%",
       }}
     >
       <Navbar.Brand href="#" className="mb-4 d-flex align-items-center gap-2">
@@ -35,7 +34,6 @@ export default function MyNavbar() {
             backgroundColor: "#1F1F1F",
             border: "1px solid #FA586A",
             color: "white",
-            paddingLeft: "35px",
           }}
         />
       </Form>

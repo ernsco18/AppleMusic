@@ -44,11 +44,7 @@ const Novità = function () {
               Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
             </h3>
 
-            <img
-              src="../images/1a.png"
-              alt="Chill Radio"
-              style={{ width: "100%", borderRadius: "10px" }}
-            />
+            <img src="../images/1a.png" alt="Chill Radio" style={{ width: "100%", borderRadius: "10px" }} />
           </Card.Body>
         </Card>
 
@@ -81,11 +77,7 @@ const Novità = function () {
               Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
             </h3>
 
-            <img
-              src="../images/1b.png"
-              alt="Chill Radio"
-              style={{ width: "100%", borderRadius: "10px" }}
-            />
+            <img src="../images/1b.png" alt="Chill Radio" style={{ width: "100%", borderRadius: "10px" }} />
           </Card.Body>
         </Card>
 
@@ -118,11 +110,7 @@ const Novità = function () {
               Lorem ipsum dolor sit amet commmmmmmmmm
             </h3>
 
-            <img
-              src="../images/1c.png"
-              alt="Chill Radio"
-              style={{ width: "100%", borderRadius: "10px" }}
-            />
+            <img src="../images/1c.png" alt="Chill Radio" style={{ width: "100%", borderRadius: "10px" }} />
           </Card.Body>
         </Card>
       </div>

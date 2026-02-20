@@ -11,8 +11,8 @@ const Home = function () {
     <>
       <Row className="g-0 bg-dark">
         <Col xs={12} lg={12} className="p-0">
-          <PlayerXs />
           <Novità />
+          <PlayerXs />
           <NuoviRadio />
           <NuoveUscite />
           <Altro />

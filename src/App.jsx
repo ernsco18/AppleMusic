@@ -7,7 +7,7 @@ import PlayerLg from "./components/PlayerLg";
 
 function App() {
   return (
-    <Row className="p-0">
+    <Row className="p-0 max-vh-100 g-0">
       <Col xs={12} lg={2} className="p-0">
         <MyNavbar />
         <MyNavbarXs />
