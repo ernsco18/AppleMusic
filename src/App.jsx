@@ -1,0 +1,23 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
+import MyNavbar from "./components/MyNavbar";
+import MyNavbarXs from "./components/MyNavbarXs";
+import { Col, Row } from "react-bootstrap";
+import PlayerLg from "./components/PlayerLg";
+
+function App() {
+  return (
+    <Row className="p-0">
+      <Col xs={12} lg={2} className="p-0">
+        <MyNavbar />
+        <MyNavbarXs />
+      </Col>
+      <Col xs={12} lg={10} className="p-0">
+        <PlayerLg />
+        <Home />
+      </Col>
+    </Row>
+  );
+}
+
+export default App;
